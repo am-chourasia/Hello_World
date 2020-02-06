@@ -8,6 +8,11 @@ class Hello_World
     System.out.println("Hello_World");
     System.out.println("Enter an integer value : ");
     int x=sc.nextInteger();
-    System.out.println("The entered value is  : a = "+a);
+    
+    System.out.println("Enter another integer value : ");
+    int y=sc.nextInteger();
+    
+    System.out.println("The addition of these two number is: ",x+y);
+    
   }
 }
